@@ -25,13 +25,13 @@ fs.doFile("/Layout.lua")
 And that's pretty much it, you now have access to the whole library.
 
 
-# How to use
+### How to use
 Right now, the system is based upon 3 main components :
 * GUI : The component using the FIN GPU to render things. Nothing really complicated here, just some abstraction to get screeens, GPU, MediaSubSystem and so on.
 * Layout : This one is a bit trickier and needs to be reworked. The layout is a invisible component which holds either a layout, or a drawable. Its job consists to resize and position every elements according to its settings (horizontal, vertical, width, height...)
 * Drawable : Represents every component we can draw on the screen. Right now, ProgressBar, InfoBox, and Box are the only one availables.
 
-## Notes
+#### Notes
 All the code I produce usually uses a convention used on Unity some time ago, to differentiate local and parameters from class variables : 
 * l_ : is a local variable
 * p_ : is a parameter
