@@ -2,7 +2,7 @@
 This project is a GUI Kit for FIN Satisfactory mod written in Lua. It is still in an experimental phase and can contains bugs and some other monstruosity which will be fixed over time :)
 The big idea is to implement layouting and most common controls for people to user freely. 
 
-#Get Started
+# Get Started
 Clone this repository, and copy those files on a hard disk you have on your computer. If you need to find your harddisk UUID, you can use this code : 
 ```lua
 fs = filesystem;
@@ -25,7 +25,7 @@ fs.doFile("/Layout.lua")
 And that's pretty much it, you now have access to the whole library.
 
 
-#How to use
+# How to use
 Right now, the system is based upon 3 main components :
 * GUI : The component using the FIN GPU to render things. Nothing really complicated here, just some abstraction to get screeens, GPU, MediaSubSystem and so on.
 * Layout : This one is a bit trickier and needs to be reworked. The layout is a invisible component which holds either a layout, or a drawable. Its job consists to resize and position every elements according to its settings (horizontal, vertical, width, height...)
