@@ -1,0 +1,13 @@
+Colors = {}
+Colors.Primary = {66/255,165/255,245/255, 1}
+Colors.Success = {218/255, 247/255, 166/255, 1}
+Colors.Warning = {255/255, 195/255, 0, 1}
+Colors.Danger = {255/255, 87/255, 51/255, 1}
+Colors.DangerBack = {199/255, 73/255, 41/255, 1}
+Colors.Panel = {200/255, 200/255, 200/255, 1}
+Colors.PanelBack = {150/255, 150/255, 150/255, 1}
+Colors.WarningBack = {204/255, 102/255, 0, 1}
+Colors.InfoBack = {120/255,179/255,206/255,1}
+Colors.Info = {201/255,230/255,240/255,1}
+Colors.Black = {0,0,0,1}
+Colors.White = {1,1,1,1}
